@@ -1,7 +1,7 @@
 .container {
   width: 100vw;
   height: 110vh;
-  background: linear-gradient(to right, #000000, #000000a8),
+  background: linear-gradient(to right, #000000, #000000c2),
     url(../imgs/bg-scrfc.jpeg);
   background-size: cover;
   display: flex;
@@ -83,7 +83,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    // gap: 2rem;
     flex-direction: row;
     .elmnt-div {
       width: 40%;
@@ -93,7 +93,7 @@
       align-items: start;
       justify-content: center;
       flex-direction: column;
-      gap: 2rem;
+      gap: 1rem;
       padding-left: 5rem;
       .shape {
         background-color: $blue-color;
@@ -101,13 +101,14 @@
         border-radius: 20px;
       }
       p {
-        font-size: 17px;
+        font-size: 18px;
       }
       .first-p {
         color: $blue-color;
       }
       .Wellness {
         color: $white-color;
+        font-size: 25px;
       }
       .maximize {
         color: $white-color;
@@ -120,7 +121,7 @@
         justify-content: start;
         gap: 10px;
         .google {
-          width: 120px;
+          width: 90px;
           object-fit: cover;
           display: flex;
           align-items: start;
