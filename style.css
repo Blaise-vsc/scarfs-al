@@ -816,6 +816,8 @@ body {
 }
 @media (max-width: 480px) {
   .fith-container {
+    background: linear-gradient(to right, hsla(0, 0%, 25%, 0.682), #000000), url(../imgs/bg-five-respo.jpg);
+    background-size: cover;
     width: 100%;
     height: 100vh;
     flex-direction: column;
@@ -847,9 +849,12 @@ body {
     align-items: center;
     height: 20%;
     margin-top: 8rem;
+    margin-top: 9rem;
   }
   .fith-container .phone-div .phone-mockup {
+    position: absolute;
     width: 130px;
+    top: 20%;
   }
 }
 @media (max-width: 380px) {
