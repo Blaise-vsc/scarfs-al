@@ -582,7 +582,7 @@ body {
 @media (max-width: 480px) {
   .trois-container {
     width: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7098039216), rgba(0, 0, 0, 0.3921568627)), url(../imgs/trois-resp.jpeg);
+    background: linear-gradient(300deg, #000000, rgba(0, 0, 0, 0.3921568627)), url(../imgs/trois-resp.jpeg);
     background-size: cover;
   }
   .trois-container .trois-div .about {
