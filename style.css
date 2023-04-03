@@ -160,6 +160,12 @@ body {
     align-items: center;
     justify-content: center;
   }
+  .container header {
+    background: #0b0b0b;
+    position: fixed;
+    top: 0%;
+    z-index: 1000;
+  }
   .container header .im-log {
     width: 30%;
   }
