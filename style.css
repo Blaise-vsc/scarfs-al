@@ -649,7 +649,7 @@ body {
     background-size: cover;
   }
   .trois-container .trois-div {
-    gap: 15px;
+    gap: 35px;
   }
   .trois-container .trois-div .about {
     font-size: 15px;
@@ -658,7 +658,10 @@ body {
     font-size: 15px;
   }
   .trois-container .trois-div .learn {
-    font-size: 16px;
+    font-size: 20px;
+  }
+  .trois-container .trois-div .modern {
+    font-size: 20px;
   }
 }
 .fourth-container {
@@ -737,6 +740,11 @@ body {
     margin-top: 14rem;
   }
 }
+@media (max-width: 420px) {
+  .autre-fourth {
+    margin-top: 1rem;
+  }
+}
 .fith-container {
   background: linear-gradient(to right, hsla(0, 0%, 25%, 0.682), #000000), url(../imgs/thidth-bg.jpg);
   background-size: cover;
@@ -802,6 +810,26 @@ body {
 }
 @media (max-width: 480px) {
   .fith-container {
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+  }
+  .fith-container .trois-div {
+    height: 75%;
+  }
+  .fith-container .phone-div {
+    justify-content: end;
+    align-items: center;
+    height: 20%;
+    margin-top: 8rem;
+  }
+  .fith-container .phone-div .phone-mockup {
+    width: 130px;
+  }
+}
+@media (max-width: 420px) {
+  .fith-container {
+    margin-top: 8rem;
     width: 100%;
     height: 100vh;
     flex-direction: column;
