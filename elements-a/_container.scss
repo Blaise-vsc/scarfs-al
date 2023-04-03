@@ -288,3 +288,56 @@
     }
   }
 }
+@media (max-width: 420px) {
+  .container {
+    // clip-path: polygon(0 0, 100% 0, 100% 94%, 0 100%);
+
+    header {
+      height: 14%;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 0px 15px;
+      .logo-div {
+        width: 100%;
+        // height: 100%;
+        align-items: center;
+        justify-content: center;
+        .next-img {
+          display: none;
+        }
+        .im-dis-none {
+          display: block;
+          width: 150px;
+          // height: 30px;
+        }
+      }
+      .sheader-div {
+        display: none;
+      }
+    }
+    .container-element {
+      height: 75%;
+      .elmnt-div {
+        padding: 0px;
+        padding: 1rem 0px;
+        gap: 16px;
+        .playstore {
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          padding-top: 0px;
+          padding-left: 0px;
+          padding-bottom: 0px;
+          // padding-right: 2rem;
+        }
+        .Wellness {
+          font-size: 20px;
+        }
+        p {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
