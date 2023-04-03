@@ -117,6 +117,7 @@
 }
 @media (max-width: 480px) {
   .trois-container {
+    width: 100%;
     background: linear-gradient(to right, #00000038, #000000b4),
       url(../imgs/trois-resp.jpeg);
     background-size: cover;
