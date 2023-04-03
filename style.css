@@ -230,7 +230,7 @@ body {
 }
 @media (max-width: 480px) {
   .container header {
-    height: 20%;
+    height: 14%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -252,12 +252,12 @@ body {
     display: none;
   }
   .container .container-element {
-    height: 70%;
+    height: 75%;
   }
   .container .container-element .elmnt-div {
     padding: 0px;
     padding: 1rem 0px;
-    gap: 30px;
+    gap: 40px;
   }
   .container .container-element .elmnt-div .playstore {
     width: 100%;
