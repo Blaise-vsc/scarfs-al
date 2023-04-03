@@ -60,3 +60,23 @@
     }
   }
 }
+@media (max-width: 480px) {
+  .fith-container {
+    // margin-top: 22rem;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    .trois-div {
+      height: 75%;
+    }
+    .phone-div {
+      justify-content: end;
+      align-items: center;
+      height: 20%;
+      margin-top: 8rem;
+      .phone-mockup {
+        width: 130px;
+      }
+    }
+  }
+}
