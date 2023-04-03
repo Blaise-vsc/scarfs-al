@@ -222,13 +222,13 @@ body {
     padding-left: 1rem;
   }
   .container .container-element .elmnt-div .Wellness {
-    font-size: 30px;
+    font-size: 20px;
   }
   .container .container-element .elmnt-div p {
     font-size: 22px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 480px) {
   .container header {
     height: 20%;
     justify-content: center;
@@ -238,7 +238,6 @@ body {
   }
   .container header .logo-div {
     width: 100%;
-    height: 100%;
     align-items: center;
     justify-content: center;
   }
@@ -247,8 +246,7 @@ body {
   }
   .container header .logo-div .im-dis-none {
     display: block;
-    width: 100px;
-    height: 30px;
+    width: 150px;
   }
   .container header .sheader-div {
     display: none;
@@ -270,7 +268,7 @@ body {
     padding-bottom: 0px;
   }
   .container .container-element .elmnt-div .Wellness {
-    font-size: 30px;
+    font-size: 20px;
   }
   .container .container-element .elmnt-div p {
     font-size: 22px;
