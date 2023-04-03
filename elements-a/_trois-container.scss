@@ -115,3 +115,18 @@
     }
   }
 }
+@media (max-width: 480px) {
+  .trois-container {
+    background: linear-gradient(to right, #000000a0, #000000),
+      url(../imgs/trois-resp.jpeg);
+    background-size: cover;
+    .trois-div {
+      .lorem {
+        font-size: 25px;
+      }
+      .learn {
+        font-size: 30px;
+      }
+    }
+  }
+}

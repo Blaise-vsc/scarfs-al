@@ -423,12 +423,39 @@ body {
 @media (max-width: 480px) {
   .deux-container {
     gap: 0px;
+    margin: 1rem;
+  }
+  .deux-container .absolute-cont {
+    height: 100vh;
+    margin-bottom: 5rem;
+    gap: 20px;
   }
   .deux-container .absolute-cont .lign2 {
-    top: -49%;
+    display: none;
+    gap: 10px;
+  }
+  .deux-container .absolute-cont .ligne {
+    display: none;
+  }
+  .deux-container .absolute-cont .ic-a {
+    background: url(../imgs/resp-porait-a.jpeg);
+    background-size: cover;
+  }
+  .deux-container .absolute-cont .ic-a {
+    background: url(../imgs/resp-porait-a.jpeg);
+    background-size: cover;
+  }
+  .deux-container .absolute-cont .ic-b {
+    background: url(../imgs/resp-middle.jpg);
+    background-size: cover;
+  }
+  .deux-container .absolute-cont .ic-d {
+    background: url(../imgs/resp-porait-c.jpeg);
+    background-size: cover;
   }
   .deux-container .absolute-cont .deux-div {
-    height: 25vh;
+    width: 100%;
+    height: 40vh;
     gap: 10px;
     padding: 15px 10px;
   }
@@ -546,6 +573,18 @@ body {
   }
   .trois-container .trois-div .lorem {
     font-size: 35px;
+  }
+}
+@media (max-width: 480px) {
+  .trois-container {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6274509804), #000000), url(../imgs/trois-resp.jpeg);
+    background-size: cover;
+  }
+  .trois-container .trois-div .lorem {
+    font-size: 25px;
+  }
+  .trois-container .trois-div .learn {
+    font-size: 30px;
   }
 }
 .fourth-container {
