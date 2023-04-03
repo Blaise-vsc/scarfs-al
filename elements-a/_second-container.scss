@@ -1,0 +1,187 @@
+.deux-container {
+  width: 100vw;
+  height: 60vh;
+  //   background: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 6rem;
+  margin-bottom: 6rem;
+
+  .blur {
+    color: $blue-color;
+  }
+  .our {
+    color: $purple-color;
+  }
+  .absolute-cont {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+    gap: 40px;
+    padding-bottom: 23rem;
+    .ic-a {
+      background: url(../imgs/porait-a.jpeg);
+      background-size: cover;
+    }
+    .ic-b {
+      background: url(../imgs/porait-b.jpg);
+      background-size: cover;
+    }
+    .ic-c {
+      background: url(../imgs/porait-c.jpeg);
+      background-size: cover;
+    }
+    .deux-div {
+      width: 23%;
+      height: 23vw;
+      // background: $white-color;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+        rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+      display: flex;
+      align-items: center;
+      justify-content: end;
+      gap: 15px;
+      flex-direction: column;
+      color: $purple-color;
+      padding: 15px;
+      border-radius: 20px;
+      position: relative;
+
+      .buy {
+        color: $purple-color;
+        padding: 3px 22px;
+        background: $blue-color;
+        border: none;
+        font-size: 16px;
+        border-radius: 20px;
+        font-weight: bolder;
+        cursor: pointer;
+        position: absolute;
+        bottom: -3%;
+      }
+      .icon {
+        width: 50px;
+        object-fit: cover;
+      }
+    }
+
+    .ligne {
+      width: 3px;
+      height: 100px;
+      border: 3px solid $blue-color;
+      border-radius: 29px;
+      position: absolute;
+      top: -235px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+        rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    }
+    .lign2 {
+      width: 20px;
+      height: 20px;
+      border: 4px solid $blue-color;
+      border-radius: 20px;
+      position: absolute;
+      top: -260px;
+      transition: all 0.6s;
+      cursor: pointer;
+
+      &:hover {
+        border: 4px solid $white-color;
+        border-radius: 0px;
+        rotate: 360deg;
+        background: $blue-color;
+        box-shadow: rgba(250, 244, 244, 0.153) 0px 1px 2px,
+          rgba(248, 247, 247, 0.136) 0px 2px 4px,
+          rgba(244, 243, 243, 0.07) 0px 4px 8px,
+          rgba(255, 254, 254, 0.148) 0px 8px 16px,
+          rgba(254, 254, 254, 0.07) 0px 16px 32px,
+          rgba(236, 235, 235, 0.148) 0px 32px 64px;
+      }
+    }
+  }
+}
+
+@media (max-width: 786px) {
+  .deux-container {
+    height: 100vh;
+    gap: 10px;
+    // padding: 2rem 0px;
+    .blur {
+      height: 5%;
+    }
+    .our {
+      height: 8%;
+    }
+    .absolute-cont {
+      height: 90%;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+      gap: 15pxpx;
+
+      .deux-div {
+        width: 40%;
+        height: 80%;
+        gap: 15px;
+        padding: 10px;
+
+        p {
+          font-size: 20px;
+        }
+        .icon {
+          width: 50px;
+        }
+        .buy {
+          padding: 3px 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 786px) {
+  .deux-container {
+    gap: 0px;
+    .absolute-cont {
+      .deux-div {
+        height: 80vh;
+        gap: 10px;
+        padding: 15px 10px;
+        .icon {
+          width: 40px;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .deux-container {
+    gap: 0px;
+    .absolute-cont {
+      .lign2 {
+        top: -49%;
+      }
+      .deux-div {
+        height: 25vh;
+        gap: 10px;
+        padding: 15px 10px;
+        .icon {
+          width: 40px;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

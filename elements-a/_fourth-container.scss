@@ -1,0 +1,49 @@
+.fourth-container {
+  width: 100vw;
+  height: 70vh;
+  padding: 3rem;
+  margin-top: 3rem;
+
+  .absolute-cont {
+    gap: 30px;
+    .rob-a {
+      background: url(../imgs/rob-1.png);
+      background-size: cover;
+    }
+    .rob-b {
+      background: url(../imgs/rob-2.png);
+      background-size: cover;
+    }
+    .rob-c {
+      background: url(../imgs/rob-3.png);
+      background-size: cover;
+    }
+    .rob-d {
+      background: url(../imgs/as-a.png);
+      background-size: cover;
+    }
+    .rob-e {
+      background: url(../imgs/as-b.png);
+      background-size: cover;
+    }
+    .rob-f {
+      background: url(../imgs/as-c.png);
+      background-size: cover;
+    }
+    .fouth-img {
+      align-items: start;
+    }
+    .deux-div {
+      width: 25%;
+      height: 30vw;
+      .h2 {
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .fourth-container {
+    height: 100vh;
+  }
+}

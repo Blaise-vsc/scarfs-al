@@ -1,0 +1,117 @@
+.trois-container {
+  width: 100vw;
+  height: 100vh;
+  background: goldenrod;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  background: linear-gradient(to right, #000000a0, #000000),
+    url(../imgs/secc-bg.jpg);
+  background-size: cover;
+
+  .trois-div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 4rem;
+    padding-right: 10rem;
+    gap: 20px;
+    .learn {
+      font-size: 20px;
+      color: $purple-color;
+      padding: 4px 15px;
+      border: none;
+      border-radius: 20px;
+    }
+    .about {
+      color: $blue-color;
+      font-weight: bolder;
+    }
+    .modern {
+      color: $white-color;
+      font-size: 30px;
+    }
+    .bar {
+      width: 80px;
+      height: 4px;
+      border: 3px solid $blue-color;
+      border-radius: 20px;
+    }
+    .lorem {
+      color: $white-color;
+      font-size: 20px;
+    }
+  }
+
+  //
+  .custom-shape-divider-top-1680369499 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  .custom-shape-divider-top-1680369499 svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 150px;
+  }
+  .custom-shape-divider-top-1680369499 .shape-fill {
+    fill: #ffffff;
+  }
+  //
+  //
+  .custom-shape-divider-bottom-1680369625 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  .custom-shape-divider-bottom-1680369625 svg {
+    position: relative;
+    display: block;
+    width: calc(155% + 1.3px);
+    height: 150px;
+  }
+  .custom-shape-divider-bottom-1680369625 .shape-fill {
+    fill: #ffffff;
+  }
+  //
+}
+@media (max-width: 768px) {
+  .trois-container {
+    .div-tois-none {
+      display: none;
+    }
+    .trois-div {
+      padding: 1rem 2rem;
+      width: 100%;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      .bar {
+        border: 7px solid #ebb149;
+        width: 120px;
+      }
+      .about {
+        font-size: 30px;
+      }
+      .learn {
+        font-size: 50px;
+      }
+      .lorem {
+        font-size: 35px;
+      }
+    }
+  }
+}
