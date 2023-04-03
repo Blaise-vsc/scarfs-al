@@ -642,6 +642,25 @@ body {
     font-size: 30px;
   }
 }
+@media (max-width: 420px) {
+  .trois-container {
+    width: 100%;
+    background: linear-gradient(90deg, #000000, rgba(0, 0, 0, 0.3921568627)), url(../imgs/trois-resp.jpeg);
+    background-size: cover;
+  }
+  .trois-container .trois-div {
+    gap: 15px;
+  }
+  .trois-container .trois-div .about {
+    font-size: 15px;
+  }
+  .trois-container .trois-div .lorem {
+    font-size: 15px;
+  }
+  .trois-container .trois-div .learn {
+    font-size: 16px;
+  }
+}
 .fourth-container {
   width: 100vw;
   height: 70vh;
