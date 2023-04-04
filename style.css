@@ -440,14 +440,17 @@ body {
   .deux-container .absolute-cont .ic-a {
     background: url(../imgs/resp-porait-a.jpeg);
     background-size: cover;
+    background-position: center center;
   }
   .deux-container .absolute-cont .ic-b {
     background: url(../imgs/resp-middle.jpg);
     background-size: cover;
+    background-position: center center;
   }
   .deux-container .absolute-cont .ic-d {
     background: url(../imgs/resp-porait-c.jpeg);
     background-size: cover;
+    background-position: center center;
   }
   .deux-container .absolute-cont .deux-div {
     width: 100%;
@@ -726,6 +729,7 @@ body {
   .fourth-container .absolute-cont .deux-div {
     width: 43%;
     height: 40%;
+    background-position: center center;
   }
   .fourth-container .absolute-cont .deux-div .buy {
     padding: 2px 5px;
