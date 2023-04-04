@@ -218,6 +218,7 @@ body {
   }
   .container .container-element {
     height: 70%;
+    margin-top: 8rem;
   }
   .container .container-element .elmnt-div {
     width: 100%;
