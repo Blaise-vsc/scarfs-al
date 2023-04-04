@@ -149,7 +149,7 @@ body {
     -webkit-clip-path: none;
             clip-path: none;
     width: 100%;
-    background: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.6588235294)), url(../imgs/res-bg-a.jpg);
+    background: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.4392156863)), url(../imgs/res-bg-a.jpg);
     background-size: cover;
   }
   .container .container-element .elmnt-div {
@@ -219,6 +219,7 @@ body {
   .container .container-element {
     height: 70%;
     margin-top: 8rem;
+    padding: 0rem 2rem;
   }
   .container .container-element .elmnt-div {
     width: 100%;
