@@ -188,6 +188,16 @@ body {
   .container {
     width: 100%;
   }
+  .container .custom-shape-divider-bottom-1680359127 {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
   .container header {
     height: 20%;
     justify-content: center;
@@ -240,6 +250,16 @@ body {
   }
 }
 @media (max-width: 350px) {
+  .container .custom-shape-divider-bottom-1680359127 {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
   .container header {
     height: 14%;
     justify-content: center;
