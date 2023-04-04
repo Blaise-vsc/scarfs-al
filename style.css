@@ -220,6 +220,7 @@ body {
     height: 70%;
   }
   .container .container-element .elmnt-div {
+    width: 100%;
     padding: 0px;
   }
   .container .container-element .elmnt-div .playstore {
@@ -228,13 +229,13 @@ body {
     padding-left: 1rem;
   }
   .container .container-element .elmnt-div .Wellness {
-    font-size: 33px;
+    font-size: 25px;
   }
   .container .container-element .elmnt-div p {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 300px) {
   .container header {
     height: 14%;
     justify-content: center;
@@ -410,6 +411,22 @@ body {
   }
   .deux-container .absolute-cont .deux-div .buy {
     padding: 3px 10px;
+  }
+}
+@media (max-width: 786px) {
+  .deux-container {
+    gap: 0px;
+  }
+  .deux-container .absolute-cont .deux-div {
+    height: 80vh;
+    gap: 10px;
+    padding: 15px 10px;
+  }
+  .deux-container .absolute-cont .deux-div .icon {
+    width: 40px;
+  }
+  .deux-container .absolute-cont .deux-div p {
+    font-size: 13px;
   }
 }
 @media (max-width: 480px) {
