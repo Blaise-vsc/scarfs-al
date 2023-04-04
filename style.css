@@ -258,12 +258,19 @@ body {
     display: none;
   }
   .container .container-element {
-    height: 75%;
+    height: 100%;
   }
   .container .container-element .elmnt-div {
     padding: 0px;
     padding: 1rem 0px;
-    gap: 70px;
+    gap: 20px;
+    margin-top: 3rem;
+  }
+  .container .container-element .elmnt-div .Wellness {
+    font-size: 15px;
+  }
+  .container .container-element .elmnt-div p {
+    font-size: 15px;
   }
   .container .container-element .elmnt-div .playstore {
     width: 100%;
@@ -272,58 +279,6 @@ body {
     padding-top: 0px;
     padding-left: 0px;
     padding-bottom: 0px;
-  }
-  .container .container-element .elmnt-div .Wellness {
-    font-size: 20px;
-  }
-  .container .container-element .elmnt-div p {
-    font-size: 22px;
-  }
-}
-@media (max-width: 420px) {
-  .container header {
-    height: 14%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 0px 15px;
-  }
-  .container header .logo-div {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  .container header .logo-div .next-img {
-    display: none;
-  }
-  .container header .logo-div .im-dis-none {
-    display: block;
-    width: 150px;
-  }
-  .container header .sheader-div {
-    display: none;
-  }
-  .container .container-element {
-    height: 75%;
-  }
-  .container .container-element .elmnt-div {
-    padding: 0px;
-    padding: 1rem 0px;
-    gap: 16px;
-  }
-  .container .container-element .elmnt-div .playstore {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-  }
-  .container .container-element .elmnt-div .Wellness {
-    font-size: 20px;
-  }
-  .container .container-element .elmnt-div p {
-    font-size: 22px;
   }
 }
 .deux-container {
@@ -457,22 +412,6 @@ body {
     padding: 3px 10px;
   }
 }
-@media (max-width: 786px) {
-  .deux-container {
-    gap: 0px;
-  }
-  .deux-container .absolute-cont .deux-div {
-    height: 80vh;
-    gap: 10px;
-    padding: 15px 10px;
-  }
-  .deux-container .absolute-cont .deux-div .icon {
-    width: 40px;
-  }
-  .deux-container .absolute-cont .deux-div p {
-    font-size: 13px;
-  }
-}
 @media (max-width: 480px) {
   .deux-container {
     width: 100%;
@@ -514,6 +453,56 @@ body {
     width: 100%;
     height: 40vh;
     gap: 10px;
+    padding: 15px 10px;
+  }
+  .deux-container .absolute-cont .deux-div .icon {
+    width: 40px;
+  }
+  .deux-container .absolute-cont .deux-div p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 420px) {
+  .deux-container {
+    width: 100%;
+    height: 110vh;
+    gap: 30px;
+  }
+  .deux-container .our {
+    font-size: 20px;
+  }
+  .deux-container .absolute-cont {
+    height: 100vh;
+    margin-bottom: 0rem;
+    gap: 20px;
+  }
+  .deux-container .absolute-cont .lign2 {
+    display: none;
+    gap: 10px;
+  }
+  .deux-container .absolute-cont .ligne {
+    display: none;
+  }
+  .deux-container .absolute-cont .ic-a {
+    background: url(../imgs/resp-porait-a.jpeg);
+    background-size: cover;
+  }
+  .deux-container .absolute-cont .ic-a {
+    background: url(../imgs/resp-porait-a.jpeg);
+    background-size: cover;
+  }
+  .deux-container .absolute-cont .ic-b {
+    background: url(../imgs/resp-middle.jpg);
+    background-size: cover;
+  }
+  .deux-container .absolute-cont .ic-d {
+    background: url(../imgs/resp-porait-c.jpeg);
+    background-size: cover;
+  }
+  .deux-container .absolute-cont .deux-div {
+    width: 60%;
+    height: 50vh;
+    gap: 0px;
     padding: 15px 10px;
   }
   .deux-container .absolute-cont .deux-div .icon {
@@ -648,20 +637,20 @@ body {
     font-size: 30px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   .trois-container {
     width: 100%;
     background: linear-gradient(90deg, #000000, rgba(0, 0, 0, 0.3921568627)), url(../imgs/trois-resp.jpeg);
     background-size: cover;
   }
   .trois-container .trois-div {
-    gap: 35px;
+    gap: 20px;
   }
   .trois-container .trois-div .about {
     font-size: 15px;
   }
   .trois-container .trois-div .lorem {
-    font-size: 15px;
+    font-size: 13px;
   }
   .trois-container .trois-div .learn {
     font-size: 20px;
@@ -730,25 +719,13 @@ body {
     margin-top: 1rem;
   }
   .fourth-container .absolute-cont {
-    margin-top: 1rem;
-    gap: 20px;
+    margin-bottom: -9rem;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-bottom: 23rem;
   }
   .fourth-container .absolute-cont .deux-div {
-    width: 80%;
-    height: 90%;
-  }
-}
-@media (max-width: 480px) {
-  .autre-fourth {
-    margin-top: 14rem;
-  }
-}
-@media (max-width: 380px) {
-  .autre-fourth {
-    margin-top: 1rem;
+    width: 45%;
+    height: 50%;
   }
 }
 .fith-container {
@@ -857,9 +834,9 @@ body {
     top: 20%;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 420px) {
   .fith-container {
-    margin-top: 8rem;
+    margin-top: 4rem;
     width: 100%;
     height: 100vh;
     flex-direction: column;
