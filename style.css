@@ -724,8 +724,12 @@ body {
     flex-wrap: wrap;
   }
   .fourth-container .absolute-cont .deux-div {
-    width: 40%;
+    width: 43%;
     height: 40%;
+  }
+  .fourth-container .absolute-cont .deux-div .buy {
+    padding: 2px 5px;
+    font-size: 10px;
   }
 }
 .fith-container {

@@ -62,8 +62,12 @@
       flex-wrap: wrap;
 
       .deux-div {
-        width: 40%;
+        width: 43%;
         height: 40%;
+        .buy {
+          padding: 2px 5px;
+          font-size: 10px;
+        }
       }
     }
   }
