@@ -145,24 +145,24 @@
   }
 }
 
-// @media (max-width: 786px) {
-//   .deux-container {
-//     gap: 0px;
-//     .absolute-cont {
-//       .deux-div {
-//         height: 80vh;
-//         gap: 10px;
-//         padding: 15px 10px;
-//         .icon {
-//           width: 40px;
-//         }
-//         p {
-//           font-size: 13px;
-//         }
-//       }
-//     }
-//   }
-// }
+@media (max-width: 786px) {
+  .deux-container {
+    gap: 0px;
+    .absolute-cont {
+      .deux-div {
+        height: 80vh;
+        gap: 10px;
+        padding: 15px 10px;
+        .icon {
+          width: 40px;
+        }
+        p {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
 
 @media (max-width: 480px) {
   .deux-container {
